@@ -4,7 +4,7 @@ We need this package in blocktrail/blocktrail-sdk-nodejs, and blocktrail/bip39
 
 Build command:
 
-    ./configure --with-{aes,gcm,pbkdf2,sha512,sha256} && make
+    ./configure --without-all --with-{bitArray,codecHex,aes,gcm,pbkdf2,sha512,sha256} && make
 
 SDK needs it for V3 encryption
  - AES
